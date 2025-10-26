@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="./main.css" />
+</head>
+<body>
+    <header>
+        <h1>Formulário</h1>
+    </header>
+    <div class="container">
+        <h2>Preencha os espaços de forma que o espaço A tenha um valor menor que o espaço B</h2>
+        <form id="form-teste">
+            <label>Adicione o valor A</label>
+            <input id="spaceA" required type="number" placeholder="Valor A" />
+            <label>Adicione o valor B</label>
+            <input id="spaceB" required type="number" placeholder="valor B" />
+            <p class="error-message">
+                O valor B deve ser maior que o valor A
+            </p>
+            <button id="btn-confirmar" type="submit" >Confirmar</button>
+        </form>
+        <p class="message-success"></p>
+    </div>
+    <script src="./main.js" ></script>
+</body>
+</html>

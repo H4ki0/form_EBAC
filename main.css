@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(1, 19, 26);
+    color: white;
+    padding: 50px;
+}
+
+h1 {
+    padding: 30px;
+    font-size: 60px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+
+.container {
+    display: block;
+    text-align: center;
+}
+
+.form-teste {
+    margin: 0 auto;
+}
+
+input,
+button {
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    margin: 12px auto 7px auto;
+    display: block;
+    border-radius: 8px;
+}
+
+button {
+    font-style: italic;
+    font-size: 20px;
+    background-color: rgb(81, 128, 12);
+    color: white;
+    border: none;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: all 0.3s easy-in-out;
+    border-radius: 16px;
+}
+
+button:hover {
+    background-color: green;
+    transform: translateY(-2px);
+    box-shadow: 0 0 10px #00ff7f;
+}
+
+.message-success {
+    color: rgb(7, 219, 7);
+    margin-top: 26px;
+    font-size: 20px;
+    display: none;
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+    margin-top: 8px;
+    font-size: 20px;
+    display: none;
+}
+
+label {
+    font-size: 30px;
+}
